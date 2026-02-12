@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Studio - Minimal Design</title>
+    <link rel="stylesheet" href="styles.css">
+<!--
+
+Tooplate 2156 Graphite Creative
+
+https://www.tooplate.com/view/2156-graphite-creative
+
+Free HTML CSS Template
+
+-->
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo-area" onclick="scrollToTop(); return false;">
+                <!-- <div class="logo-vector">
+                    <img src="images/Attman-Tech-Logo-white-512.png" alt="Turing" style="position:relative;top: -85px;width: 190px"/>
+                </div> -->
+                <div class="logo-text">
+                     <img src="images/Attman-Tech-Logo-white-512.png" alt="Turing" style="position:relative;top: 0px;width: 70%"/>
+                    <!-- <h1>AttMan Tech</h1> -->
+                </div>
+            </a>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="section-hero">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-line"></div>
+                    <h2>Grow Your Retail Business with a Strong Digital Presence</h2>
+                    <p>Websites, Google Visibility & WhatsApp Leads — Built for Local Retail Stores
+
+Get more walk-in customers. Look professional online. Spend less time on tech.
+
+</p>
+                    <a href="https://wa.me/7396590907"  class="cta-button">Chat on WhatsApp</a>
+                </div>
+                <div class="slider-container">
+                    <div class="slide active" data-fallback="Design Workspace">
+                        <img src="images/tooplate-creative-01.jpg" alt="Design workspace">
+                    </div>
+                    <div class="slide" data-fallback="Creative Work">
+                        <img src="images/tooplate-creative-02.jpg" alt="Creative work">
+                    </div>
+                    <div class="slide" data-fallback="Web Design">
+                        <img src="images/tooplate-creative-03.jpg" alt="Web design">
+                    </div>
+                    <div class="slider-dots">
+                        <div class="dot active" onclick="currentSlide(0)"></div>
+                        <div class="dot" onclick="currentSlide(1)"></div>
+                        <div class="dot" onclick="currentSlide(2)"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="section-services">
+            <div class="services-container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-number">.01</div>
+                        <h3>Clothing & Fashion Stores</h3>
+                        <p>Clothing & Fashion Stores sell apparel, footwear, and accessories for different styles and occasions.
+</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">.02</div>
+                        <h3>Restaurants & Cafes</h3>
+                        <p>Restaurants & Cafes provide freshly prepared food and beverages for dine-in, takeaway, or delivery.
+</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">.03</div>
+                        <h3>Webcast Salons & Clinics</h3>
+                        <p>Webcast Salons & Clinics offer online consultations and live sessions for beauty, wellness, and healthcare services.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-number">.04</div>
+                        <h3>Electronics & Mobile Shops</h3>
+                        <p>Electronics & Mobile Shops sell gadgets like smartphones, laptops, accessories, and home electronics.
+They also provide services such as repairs, upgrades, and technical support.</p>
+                    </div>
+                    <!-- <div class="service-card">
+                        <div class="service-number">.05</div>
+                        <h3>SEO & Analytics</h3>
+                        <p>Data-driven strategies to improve visibility, increase traffic, and achieve your digital goals.</p>
+                    </div> -->
+                    <div class="service-card">
+                        <div class="service-number">.05</div>
+                        <h3>Launch & Support</h3>
+                        <p>Complete project management from concept to launch, with ongoing support and optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="section-portfolio">
+            <div class="portfolio-container">
+                <h2 class="section-title">Recent Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/tooplate-creative-21.jpg" alt="Project Alpha" loading="lazy">
+                        <div class="portfolio-label">
+                            <h3>Project Alpha</h3>
+                            <p>Web Design & Development</p>
+                        </div>
+                        <div class="portfolio-data" hidden>
+                            <p class="description">A cutting-edge web design and development project that combines modern aesthetics with powerful functionality. This project showcases our expertise in creating responsive, user-centric digital experiences.</p>
+                            <ul class="features">
+                                <li>Fully responsive design</li>
+                                <li>Modern web technologies</li>
+                                <li>Optimized performance</li>
+                                <li>SEO friendly</li>
+                            </ul>
+                            <a href="https://x.com/minthu" class="visit-url">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/tooplate-creative-22.jpg" alt="Project Beta" loading="lazy">
+                        <div class="portfolio-label">
+                            <h3>Project Beta</h3>
+                            <p>Branding & Identity</p>
+                        </div>
+                        <div class="portfolio-data" hidden>
+                            <p class="description">Complete brand identity development including logo design, color systems, and brand guidelines. This project demonstrates our ability to create cohesive visual identities that resonate with target audiences.</p>
+                            <ul class="features">
+                                <li>Logo design</li>
+                                <li>Brand guidelines</li>
+                                <li>Color systems</li>
+                                <li>Visual identity</li>
+                            </ul>
+                            <a href="https://www.tooplate.com" rel="nofollow" class="visit-url">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/tooplate-creative-23.jpg" alt="Project Gamma" loading="lazy">
+                        <div class="portfolio-label">
+                            <h3>Project Gamma</h3>
+                            <p>Digital Experience</p>
+                        </div>
+                        <div class="portfolio-data" hidden>
+                            <p class="description">An immersive digital experience that leverages cutting-edge web technologies and interactive design principles. This project showcases our expertise in creating memorable user interactions.</p>
+                            <ul class="features">
+                                <li>Interactive elements</li>
+                                <li>Smooth animations</li>
+                                <li>Modern aesthetics</li>
+                                <li>User engagement</li>
+                            </ul>
+                            <a href="https://www.tooplate.com" rel="nofollow" class="visit-url">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/tooplate-creative-24.jpg" alt="Project Delta" loading="lazy">
+                        <div class="portfolio-label">
+                            <h3>Project Delta</h3>
+                            <p>Full Brand Development</p>
+                        </div>
+                        <div class="portfolio-data" hidden>
+                            <p class="description">Comprehensive brand development project covering strategy, design, and implementation. This project demonstrates our ability to handle complex projects from concept to execution.</p>
+                            <ul class="features">
+                                <li>Strategic planning</li>
+                                <li>Visual design</li>
+                                <li>Brand deployment</li>
+                                <li>Market positioning</li>
+                            </ul>
+                            <a href="https://www.tooplate.com" rel="nofollow" class="visit-url">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/tooplate-creative-25.jpg" alt="Project Epsilon" loading="lazy">
+                        <div class="portfolio-label">
+                            <h3>Project Epsilon</h3>
+                            <p>Web & Mobile Design</p>
+                        </div>
+                        <div class="portfolio-data" hidden>
+                            <p class="description">A sophisticated multi-platform design project spanning web and mobile applications. This project showcases our expertise in creating consistent experiences across different devices and screen sizes.</p>
+                            <ul class="features">
+                                <li>Responsive design</li>
+                                <li>Cross-platform compatibility</li>
+                                <li>Intuitive UI</li>
+                                <li>Mobile optimization</li>
+                            </ul>
+                            <a href="https://www.tooplate.com" rel="nofollow" class="visit-url">Visit Site</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/tooplate-creative-26.jpg" alt="Project Zeta" loading="lazy">
+                        <div class="portfolio-label">
+                            <h3>Project Zeta</h3>
+                            <p>Concept & Strategy</p>
+                        </div>
+                        <div class="portfolio-data" hidden>
+                            <p class="description">Strategic conceptualization and planning project that formed the foundation for successful client outcomes. This project demonstrates our deep understanding of business goals and market dynamics.</p>
+                            <ul class="features">
+                                <li>Market research</li>
+                                <li>Strategic planning</li>
+                                <li>Competitive analysis</li>
+                                <li>Growth roadmap</li>
+                            </ul>
+                            <a href="https://x.com/minthu" class="visit-url">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section-about">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>Why Choose Us</h3>
+                    <p>To be a trusted global partner in delivering innovative and reliable IT and HR solutions that enable organizations to achieve their full potential.</p>
+                    <p>We envision a future where businesses leverage technology and talent seamlessly, fostering digital transformation, operational excellence, and a thriving, inclusive workplace that drives long-term success and sustainable growth.
+
+</p>
+                    </div>
+                <div class="about-blocks">
+                    <div class="about-block">
+                        <h4>Creative Excellence</h4>
+                        <p>Award-winning designs that stand out and deliver results beyond expectations.</p>
+                    </div>
+                    <div class="about-block">
+                        <h4>Technical Expertise</h4>
+                        <p>Modern technology stack ensuring performance, security, and scalability.</p>
+                    </div>
+                    <div class="about-block">
+                        <h4>Client Partnership</h4>
+                        <p>Collaborative approach with transparent communication throughout the project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section-contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Ready to bring your vision to life? Reach out to us and let's discuss how we can help elevate your brand and create something extraordinary together.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <label>Email</label>
+                            <a><span class="__cf_email__" >customersupport@attman.in</span></a>
+                        </div>
+                        <div class="contact-item">
+                            <label>Phone</label>
+                            <a href="tel:+1234567890">+91-7396590907</a>
+                        </div>
+                        <div class="contact-item">
+                            <label>Location</label>
+                            <p>201, SRS Plaza, KRCR Colony , Bachupally
+Hyderabad <br>Telangana - 500090</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <form class="contact-form" onsubmit="handleSubmit(event)"> -->
+                 <form action="contact.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <!-- <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message" required>
+                    </div> -->
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" name="submit"  class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO MODAL -->
+        <div id="portfolioModal" class="portfolio-modal">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closePortfolioModal()">&times;</button>
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <div class="modal-details">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalCategory"></p>
+                    <p id="modalDescription"></p>
+                    <ul id="modalFeatures"></ul>
+                    <a href="#" id="modalVisitBtn" class="modal-visit-btn" target="_blank">Visit the Site</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Creative Studio. All rights reserved. </p>
+    </footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
