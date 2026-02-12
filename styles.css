@@ -1100,7 +1100,11 @@ footer a:hover {
 		justify-content: space-between;
 	}
 .logo-text {
-	margin-left: -65px;
+	/* margin-left: -65px; */
+}
+.logo-text img{
+	width: 75% !important;
+    left: 0% !important;
 }
 	.logo-vector {
 		width: 40px;
