@@ -26,7 +26,7 @@ body {
 
 /* HEADER */
 header {
-	height: 140px;
+	height: 85px;
 	background-color: #121212;
 	border-bottom: 1px solid #2a2a2a;
 	display: flex;
@@ -1029,7 +1029,7 @@ footer a:hover {
 .img-pos{
 	position: absolute;
 	height: 300px;
-	top: -80px;
+	top: -115px;
 }
 @media (max-width: 768px) {
 	.modal-content {
@@ -1106,10 +1106,14 @@ footer a:hover {
 .logo-text {
 	/* margin-left: -65px; */
 }
-
+.img-pos {
+    position: absolute;
+    /* height: 0px !important; */
+    top: -115px !important;
+}
 .logo-text img{
-	width: 75% !important;
-    left: 0% !important;
+	/* width: 60% !important; */
+    left: -12% !important;
 }
 	.logo-vector {
 		width: 40px;
