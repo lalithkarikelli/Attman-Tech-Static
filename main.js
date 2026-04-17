@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const phone = document.getElementById('phone').value;
         const description = document.getElementById('description').value;
         
-        const subject = 'Contact Inquiry';
-        const body = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0ADescription: ${description}`;
+        const subject = 'Website Inquiry';
+        const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nDescription: ${description}`;
         
         const mailtoLink = `mailto:customersupport@attman.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
